@@ -6,3 +6,7 @@ class Pokemon:
 Charmander = Pokemon("Charmander", "fire")
 
 print(Charmander.name+" "+Charmander.type)
+
+Charmander.type = "Water"
+
+print(Charmander.name+" "+Charmander.type)
