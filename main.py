@@ -3,3 +3,4 @@ class Pokemon:
     self.name = name
     self.type = type
 
+Charmander = Pokemon("Charmander", "fire")
