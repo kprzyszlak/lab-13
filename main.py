@@ -4,3 +4,5 @@ class Pokemon:
     self.type = type
 
 Charmander = Pokemon("Charmander", "fire")
+
+print(Charmander.name+" "+Charmander.type)
